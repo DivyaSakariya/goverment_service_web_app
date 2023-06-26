@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_view_app/views/screens/spalsh_screen.dart';
 
 import 'views/screens/home_page.dart';
 
@@ -17,7 +18,11 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.blue,
       ),
-      home: HomePage(),
+      initialRoute: 'splash_screen',
+      routes: {
+        'splash_screen': (context) => const SplashScreen(),
+        '/': (context) => HomePage(),
+      },
     );
   }
 }
