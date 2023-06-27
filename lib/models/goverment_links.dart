@@ -49,6 +49,6 @@ class GovernmentLinks {
       'title': 'Department Of Telecommunication',
       'url': 'https://dot.gov.in/national-government-services-portal',
     },
-    https://www.sonsaur.com/
+    // https://www.sonsaur.com/
   ];
 }
